@@ -1,0 +1,37 @@
+.container {
+  padding: 24px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo__img {
+  height: 6em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 24px auto;
+  max-width: 600px;
+}
+
+.form__action {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  margin-bottom: 24px;
+  gap: 8px;
+}
+
+.form__action > label {
+  margin-bottom: 0px;
+}
+
+.form__action > input[type='checkbox'] {
+  order: -1;
+  margin: 0px;
+}
